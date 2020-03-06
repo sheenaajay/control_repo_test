@@ -13,6 +13,10 @@ mod 'puppetlabs/inifile', '3.0.0'
 #  git:    'https://github.com/puppetlabs/puppetlabs-apache',
 #  commit: '1b6f89afdde0df7f9433a163d5c4b5328eac5779'
 
+#mod 'reboot',
+#  git:    'https://github.com/sheenaajay/puppetlabs-reboot',
+#  branch: 'bugix'
+
 mod 'reboot',
-  git:    'https://github.com/sheenaajay/puppetlabs-reboot',
-  branch: 'bugix'
+  :git    => 'https://github.com/sheenaajay/puppetlabs-reboot',
+  :branch => 'bugfix'
