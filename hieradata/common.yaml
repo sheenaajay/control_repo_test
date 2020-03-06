@@ -1,0 +1,8 @@
+  #Enabling this configures code manager, all three below values should be enabled and populated at the same time.
+  "puppet_enterprise::profile::master::code_manager_auto_configure": true
+
+  #The ssh url to your existing control repo.
+  "puppet_enterprise::profile::master::r10k_remote": "git@github.com:sheenaajay/control_repo_test.git"
+
+  #The private key to your puppetmaster for establishing key-based ssh authentication to your vcs.
+  "puppet_enterprise::profile::master::r10k_private_key": "/etc/puppetlabs/puppetserver/ssh/id-control_repo.rsa"
